@@ -1,0 +1,12 @@
+{
+  "name": "loan-certificate-design",
+  "version": "1.0.0",
+  "description": "Loan certificate design with SVG to PNG conversion",
+  "main": "convert.js",
+  "scripts": {
+    "convert": "node convert.js"
+  },
+  "dependencies": {
+    "sharp": "^0.32.1"
+  }
+}
