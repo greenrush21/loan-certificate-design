@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="1100" viewBox="0 0 800 1100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background with subtle pattern -->
+    <defs>
+        <pattern id="subtle-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+            <path d="M0 10h20M10 0v20" stroke="#C4A86F" stroke-width="0.5" opacity="0.1"/>
+        </pattern>
+        <linearGradient id="header-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#2A3B4D"/>
+            <stop offset="100%" style="stop-color:#1A2B3D"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- Main background -->
+    <rect width="800" height="1100" fill="#F5F3EB"/>
+    <rect width="800" height="1100" fill="url(#subtle-pattern)"/>
+    
+    <!-- Header section -->
+    <rect x="0" y="0" width="800" height="120" fill="url(#header-gradient)"/>
+    <text x="400" y="70" font-family="Playfair Display" font-size="36" fill="#F5F3EB" text-anchor="middle">SERTIFIKAT PINJAMAN</text>
+    <text x="400" y="100" font-family="Lato" font-size="14" fill="#C4A86F" text-anchor="middle">AMAN • TERVERIFIKASI • RESMI</text>
+    
+    <!-- Logo placeholders -->
+    <circle cx="80" cy="60" r="40" fill="#F5F3EB" opacity="0.9"/>
+    <circle cx="720" cy="60" r="40" fill="#F5F3EB" opacity="0.9"/>
+    
+    <!-- Main content area -->
+    <rect x="40" y="160" width="720" height="800" fill="#FFFFFF" stroke="#2A3B4D" stroke-width="2"/>
+    
+    <!-- Loan amount section -->
+    <rect x="60" y="200" width="680" height="100" fill="#2A3B4D" rx="5"/>
+    <text x="400" y="250" font-family="Playfair Display" font-size="36" fill="#F5F3EB" text-anchor="middle">JUMLAH PINJAMAN: Rp 50.000.000</text>
+    <text x="400" y="280" font-family="Lato" font-size="16" fill="#C4A86F" text-anchor="middle">LIMA PULUH JUTA RUPIAH</text>
+    
+    <!-- Details grid -->
+    <g transform="translate(60, 320)">
+        <!-- Left column -->
+        <text x="0" y="30" font-family="Lato" font-size="14" fill="#2A3B4D">Data Peminjam:</text>
+        <text x="0" y="60" font-family="Lato" font-size="14" fill="#2A3B4D">Nama: Bambang Suryanto</text>
+        <text x="0" y="85" font-family="Lato" font-size="14" fill="#2A3B4D">NIK: 3275021504890002</text>
+        <text x="0" y="110" font-family="Lato" font-size="14" fill="#2A3B4D">Alamat: Jl. Gatot Subroto No. 123</text>
+        <text x="0" y="135" font-family="Lato" font-size="14" fill="#2A3B4D">Jakarta Selatan, DKI Jakarta</text>
+        <line x1="0" y1="40" x2="320" y2="40" stroke="#C4A86F" stroke-width="1"/>
+        
+        <!-- Right column -->
+        <text x="360" y="30" font-family="Lato" font-size="14" fill="#2A3B4D">Detail Pinjaman:</text>
+        <text x="360" y="60" font-family="Lato" font-size="14" fill="#2A3B4D">Jangka Waktu: 24 Bulan</text>
+        <text x="360" y="85" font-family="Lato" font-size="14" fill="#2A3B4D">Suku Bunga: 7.5% per tahun</text>
+        <text x="360" y="110" font-family="Lato" font-size="14" fill="#2A3B4D">Angsuran: Rp 2.250.000/bulan</text>
+        <text x="360" y="135" font-family="Lato" font-size="14" fill="#2A3B4D">Jaminan: Sertifikat Rumah</text>
+        <line x1="360" y1="40" x2="680" y2="40" stroke="#C4A86F" stroke-width="1"/>
+    </g>
+    
+    <!-- Signature section -->
+    <g transform="translate(60, 600)">
+        <text x="0" y="30" font-family="Lato" font-size="14" fill="#2A3B4D">Tanda Tangan Peminjam:</text>
+        <line x1="0" y1="80" x2="200" y2="80" stroke="#2A3B4D" stroke-width="1"/>
+        <text x="100" y="100" font-family="Lato" font-size="12" fill="#2A3B4D" text-anchor="middle">Bambang Suryanto</text>
+        
+        <text x="360" y="30" font-family="Lato" font-size="14" fill="#2A3B4D">Tanda Tangan Pihak Bank:</text>
+        <line x1="360" y1="80" x2="560" y2="80" stroke="#2A3B4D" stroke-width="1"/>
+        <text x="460" y="100" font-family="Lato" font-size="12" fill="#2A3B4D" text-anchor="middle">Direktur Kredit</text>
+    </g>
+    
+    <!-- Security features -->
+    <rect x="60" y="880" width="200" height="60" fill="#2A3B4D" rx="5"/>
+    <text x="160" y="915" font-family="Roboto Mono" font-size="12" fill="#F5F3EB" text-anchor="middle">KODE QR VERIFIKASI</text>
+    
+    <!-- Footer -->
+    <rect x="0" y="1020" width="800" height="80" fill="#2A3B4D"/>
+    <text x="400" y="1060" font-family="Lato" font-size="12" fill="#F5F3EB" text-anchor="middle">Verifikasi sertifikat ini di https://verifikasi.banksejahtera.co.id</text>
+    <text x="400" y="1080" font-family="Lato" font-size="10" fill="#C4A86F" text-anchor="middle">Nomor Sertifikat: SP-2023-98765</text>
+</svg>
